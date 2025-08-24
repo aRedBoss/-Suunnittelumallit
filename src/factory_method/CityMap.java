@@ -1,3 +1,5 @@
+package factory_method;
+
 public class CityMap extends Map {
 
     public CityMap(int width, int height) {
@@ -6,7 +8,7 @@ public class CityMap extends Map {
 
     @Override
     protected Tile createTile() {
-        int choice = rand.nextInt(3); // uses rand from Map superclass
+        int choice = rand.nextInt(3); // uses rand from factory_method.Map superclass
         switch (choice) {
             case 0: return new RoadTile();
             case 1: return new ForestTile();

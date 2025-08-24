@@ -1,3 +1,5 @@
+package factory_method;
+
 import java.util.Random;
 
 public abstract class Map {

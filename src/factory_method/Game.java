@@ -1,3 +1,5 @@
+package factory_method;
+
 import java.util.Scanner;
 
 public class Game {
