@@ -3,7 +3,7 @@ package template_method;
 public abstract class Game {
 
     public final void play(int numberOfPlayers) {
-        // a template method specifying a generic game
+
         initializeGame(numberOfPlayers);
         int playerInTurn = 0;
         while (!endOfGame()) {
