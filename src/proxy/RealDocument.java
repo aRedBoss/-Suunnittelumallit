@@ -25,7 +25,7 @@ public class RealDocument implements Document {
 
     @Override
     public String getContent(User user) {
-        return content; // real document content is directly accessible
+        return content;
     }
 }
 

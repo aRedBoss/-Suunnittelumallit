@@ -17,7 +17,6 @@ public class Library {
         return documents.get(id);
     }
 
-    // Factory method to create protected document
     public void addProtectedDocument(String id, String content) {
         RealDocument realDoc = new RealDocument(id, content);
         DocumentProxy proxy = new DocumentProxy(realDoc);
